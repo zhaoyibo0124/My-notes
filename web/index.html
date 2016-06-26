@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>穷游网项目</title>
+    <link rel="stylesheet"  type="text/css" href="css/css.css"/>
+</head>
+<body>
+<div id="header" class="header">
+    <div id="header-inner">
+        <a href="#"><img src="img/logo.png" class="logo" width="76" height="36"></a>
+        <div id="navLeft" class="navLeft">
+            <ul>
+                <li class=" navli line"><a class="nav-span" href="" title="旅游目的地">目的地</a></li>
+                <li class=" navli"><a class="nav-span" href="" title="旅游锦囊">锦囊</a></li>
+                <li class=" navli"><a class="nav-span" href="" title="旅游行程">行程助手</a></li>
+                <li id="community" class=" navli">
+                    <a class="nav-span" href="" title="社区">社区<i class="iconfont icon-jiantouxia"></i></a>
+                    <ul id="comList" class="comList">
+                        <div class="triangle"></div>
+                        <li>
+                            <i class="iconfont icon-luntan"></i>旅行论坛<i class="iconfont icon-jiantouyou"></i>
+                            <div id="hotbox" class="hotbox">
+                                <div class="hotsection"><span class="l">热门版块</span><span class="r"><a href="">全部版块&nbsp></a></span></div>
+                                <dl>
+                                    <dt>兴趣小组</dt>
+                                    <dd>
+                                        <a href="">结伴同游</a>
+                                        <a href="">签证</a>
+                                        <a href="">境外购物</a>
+                                        <a href="">旅行摄影</a>
+                                        <a href="">潜水俱乐部</a>
+                                        <a href="">带孩子旅行</a></dd>
+                                    <dt>穷游欧洲</dt>
+                                    <dd style="height: 70px"><a href="#">法国/摩纳哥</a>
+                                        <a href="#">德国</a>
+                                        <a href="#">英国/爱尔兰</a>
+                                        <a href="#">瑞士/列支敦士登</a>
+                                        <a href="#">土耳其</a>
+                                        <a href="#">挪威/瑞典/芬兰/丹麦/冰岛</a>
+                                        <a href="#">意大利/梵蒂冈/圣马力诺/马耳他</a>
+                                    </dd>
+                                    <dt>穷游亚洲</dt>
+                                    <dd style="height: 70px">
+                                        <a href="">台湾</a>
+                                        <a href="">日本</a>
+                                        <a href="">泰国</a>
+                                        <a href="">新加坡</a>
+                                        <a href="">斯里兰卡</a>
+                                        <a href="">韩国/朝鲜</a>
+                                        <a href="">香港/澳门</a>
+                                        <a href="">马来西亚/文莱</a>
+                                        <a href="">马尔代夫</a>
+                                        <a href="">柬埔寨</a>
+                                        <a href="">缅甸</a>
+                                    </dd>
+                                    <dt>穷游美洲</dt>
+                                    <dd>
+                                        <a href="">加拿大</a>
+                                        <a href="">洛杉矶</a>
+                                        <a href="">休斯顿</a>
+                                        <a href="">达拉斯</a>
+                                        <a href="">西雅图</a>
+                                    </dd>
+                                    <dt>穷游大洋洲</dt>
+                                    <dd>
+                                        <a href="">澳大利亚</a>
+                                        <a href="">新西兰</a>
+                                        <a href="">太平洋海岛</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </li>
+                        <li><i class="iconfont icon-wenda"></i>旅行问答</li>
+                        <li><i class="iconfont icon-shenghuoshiyanshi"></i>JNE旅行生活美学</li>
+                    </ul>
+                </li>
+                <li class="navli" title ="旅游自由行"><a class="nav-span" href="">最世界·自由行<span class="icon-recommend"><i></i></span></a></li>
+                <li class=" navli"><a class="nav-span" href="" title="酒店">酒店</a><span class="down"></span></li>
+                <li class=" navli"><a class="nav-span" href="" title="机票">机票</a><span class="down"></span></li>　
+                <li class=" navli" id="navli8"><a class="nav-span" href="" title="预订">预订<i class="iconfont icon-jiantouxia"></i></a>
+                <ul id="resUl" class="resUl">
+                    <div class="triangle"></div>
+                    <li><a href=""><i class="iconfont icon-chengshi"></i>特价酒店</a></li>
+                    <li><a href=""><i class="iconfont icon-baoxian"></i>保险</a></li>
+                    <li><a href=""><i class="iconfont icon-huarenlvguan"></i>华人旅馆</a></li>
+                    <li><a href=""><i class="iconfont icon-lunchuan"></i>游轮</a></li>
+                    <li><a href=""><i class="iconfont icon-zuche"></i>租车</a></li>
+                </ul>
+                </li>
+            </ul>
+        </div>
+        <div id="navRight" class="navRight">
+            <div id="siteSearch" class="nav-search">
+                <form action="#" method="get">
+                    <input class="txt" name="wd" type="text">
+                    <button class="btn" type="submit">
+                        <i class="iconfont icon-sousuo"></i><span>搜索</span></button>
+                </form>
+            </div>
+            <div id="userStatus" class="status">
+                <div class="login">
+                    <a class="otherlogin-link" href="javascript:;"><i class="iconfont icon-qq"></i></a>
+                    <a class="otherlogin-link" href="javascript:;"><i class="iconfont icon-weibo"></i></a>
+                    <a class="otherlogin-link" href="javascript:;"><i class="iconfont icon-weixin"></i></a>
+                    <a href="#">注册</a>
+                    <a href="#">登录</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="banner" class="banner">
+    <div class="imgWrap">
+        <!--<div><img src="img/1.jpg" alt=""/></div>-->
+        <!--<div><img src="img/2.jpg" alt=""/></div>-->
+        <!--<div><img src="img/3.jpg" alt=""/></div>-->
+        <!--<div><img src="img/4.jpg" alt=""/></div>-->
+        <!--<div><img src="img/5.jpg" alt=""/></div>-->
+    </div>
+    <ul>
+        <!--<li class="bg"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>-->
+    </ul>
+    <a href="javascript:;" class="btnLeft"></a>
+    <a href="javascript:;" class="btnRight"></a>
+    <div class="textbtn" id="textbtn">
+            <span><i id="btnI">1</i><em>/5</em></span>
+            <span class="con" id="con">
+                <a href="" id="btnA"><p>第一张图介绍风景这边独好</p><p>adsyun1</p></a>
+            </span>
+    </div>
+
+</div>
+<div id="search" class="search">
+    <div class="tab" id="tab">
+        <a class="tab-place" href="javascript:;"><span></span>目的地</a>
+        <a class="tab-plan" href="javascript:;"><span></span>做行程</a>
+        <a class="tab-z" href="javascript:;"><span></span>买折扣</a>
+    </div>
+    <div class="panel" id="panel">
+        <em class="arrow"></em>
+        <div class="panel-inner">
+            <form class="place_search_form" target="_blank" action="" method="post">
+                <input class="placesearch_txt" id="placesearch_txt" name="ads"type="text" value="新西兰">
+                <button class="selbtn" type="submit">搜索</button>
+            </form>
+        </div>
+        <div class="history" id="history">
+            <div class="history_box"></div>
+            <div class="history-title">
+                <span>热门城市</span>
+            </div>
+            <div class="history-cont">
+                <a target="_blank">香港</a>
+                <a>曼谷</a>
+                <a>东京</a>
+                <a>澳门</a>
+                <a>首尔</a>
+                <a>京都</a>
+                <a>大阪</a>
+                <a>台湾</a>
+                <a>巴黎</a>
+                <a>罗马</a>
+                <a>清迈</a>
+                <a>新加坡</a>
+                <a>台北</a>
+                <a>吉隆坡</a>
+                <a>威尼斯</a>
+                <a>普吉岛</a>
+                <a>普吉岛</a>
+                <a>普吉岛</a>
+                <a>普吉岛</a>
+                <a>普吉岛</a>
+                <a>普吉岛</a>
+            </div>
+        </div>
+    </div>
+    <div class="panel-center" id="panel-center">
+        <em class="arrow"></em>
+
+        <div class="panel-content">
+            <img src="img/planner.png" height="28">
+            <a class="link-create" target="_blank" href="#"><i class="iconfont icon-jiahao"></i> 创建我的行程</a>
+            <a class="link-custom" target="_blank" href="#"><i class="iconfont icon-custom"></i> 定制服务</a>
+        </div>
+    </div>
+    <div class="panel-right" id="panel-right">
+        <em class="arrow"></em>
+        <div class="panel-content">
+            <form class="place_search_form" target="_blank" action="" method="post">
+                <input class="placesearch_txt" type="text" value="搜索目的地/折扣类型/关键词">
+                <button class="selbtn" type="submit">搜索</button>
+            </form>
+        </div>
+        <div class="history-select">
+            <div class="history_box"></div>
+            <div class="history-title">
+                <span>热门搜索</span>
+            </div>
+            <div class="history-cont">
+                <a target="_blank">日本 城市</a>
+                <a>清迈 门票/一日游</a>
+                <a>瑞士铁路通票</a>
+                <a>巴黎卢浮宫</a>
+                <a>沙巴 玩乐</a>
+                <a>普吉岛 出海游</a>
+                <a>新加坡 机票</a>
+                <a>巴黎 机票</a>
+                <a>台湾 高铁票</a>
+                <a>韩国 自由行</a>
+                <a>WIFI/电话卡</a>
+                <a>日韩邮轮</a>
+                <a>美国 交通卡</a>
+                <a>日本JR PASS</a>
+                <a>穷游CITYWALK</a>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div id="bannerpic" class="bannerpic">
+    <div id="wrap" class="wrap">
+        <a class="pic1" href=""><img src="img/banner1.png" alt="" width="740" height="110"/></a>
+        <a class="pic2" href=""><img src="img/banner2.png" alt="" width="400" height="110"/></a>
+    </div>
+
+</div>
+<div id="content" class="content">
+    <div id="section" class="section">
+        <div id="wrapper" class="wrapper">
+            <h2 class="title">猜你感兴趣</h2>
+            <a class="change" href=""><i class="iconfont icon-shuaxin"></i>换一换</a>
+
+            <div id="inter-inner" class="inter-inner">
+                <ul>
+                    <li>
+                        <a class="close iconfont icon-wrong" href="javascript:;" title="并不感兴趣"></a>
+                        <div class="imgcont" id="imgcont">
+                            <a href="">
+                                <div class="p"></div>
+                                <div class="tag" id="tag">
+                                    <span><i class="iconfont icon-youji"></i></span>
+                                    <span class="bt">游记</span>
+                                </div>
+                                <div class="imgmask"></div>
+                                <img src="img/banner1.png" alt=""/></a>
+                        </div>
+                        <div class="infocont">
+                            <a href="">
+                                <div class="subtitle">反动势力哦是考虑恢复</div>
+                                <div class="description">
+                                    <span class="descleft">去哪看</span>
+                                    <span class="descright">6020人浏览过</span>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+
+                        <a class="close iconfont icon-wrong" href="javascript:;" title="并不感兴趣"></a>
+
+                        <div class="imgcont">
+                            <a href="">
+                                <div class="p"></div>
+                                <div class="tag">
+                                    <span><i class="iconfont icon-zhekou"></i></span>
+                                    <span class="bt">游记</span>
+                                </div>
+                                <div class="imgmask"></div>
+                                <img src="img/banner1.png" alt=""/></a>
+                        </div>
+                        <div class="infocont">
+                            <a href="">
+                                <div class="subtitle">反动势力哦是考虑恢复</div>
+                                <div class="description">
+                                    <span class="descleft">去哪看</span>
+                                    <span class="descright">6020人浏览过</span>
+                                </div>
+                            </a>
+                        </div>
+
+                    </li>
+                    <li>
+
+                        <a class="close iconfont icon-wrong" href="javascript:;" title="并不感兴趣"></a>
+
+                        <div class="imgcont">
+                            <a href="">
+                                <div class="p"></div>
+                                <div class="tag">
+                                    <span><i class="iconfont icon-sight"></i></span>
+                                    <span class="bt">游记</span>
+                                </div>
+                                <div class="imgmask"></div>
+                                <img src="img/banner1.png" alt=""/></a>
+                        </div>
+                        <div class="infocont">
+                            <a href="">
+                                <div class="subtitle">反动势力哦是考虑恢复</div>
+                                <div class="description">
+                                    <span class="descleft">去哪看</span>
+                                    <span class="descright">6020人浏览过</span>
+                                </div>
+                            </a>
+                        </div>
+
+                    </li>
+                    <div class="li-login">
+                        <div class="loginsel">
+                            <div class="login-title">
+                                <h3>让我们更懂你</h3>
+                                <p>拥有穷游账号，获得更准确的推荐</p>
+                            </div>
+                            <div class="login-link">
+                                <a href="javascript:;" class="btn">立即注册</a>
+                                <span>已有帐号？<a href="javascript:;">登录</a></span>
+                            </div>
+                            <div class="auth-login">
+                                <a class="register-mail" href="javascript:;">使用邮箱注册</a>
+                                <a href="javascript:;" class="login-auth iconfont icon-qq1"></a>
+                                <a href="javascript:;" class="login-auth iconfont icon-weibo1"></a>
+                                <a href="javascript:;" class="login-auth iconfont icon-weixin1"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <li>
+
+                        <a class="close iconfont icon-wrong" href="javascript:;" title="并不感兴趣"></a>
+
+                        <div class="imgcont">
+                            <a href="">
+                                <div class="p"></div>
+                                <div class="tag">
+                                    <span><i class="iconfont icon-weijinnang"></i></span>
+                                    <span class="bt">游记</span>
+                                </div>
+                                <div class="imgmask"></div>
+                                <img src="img/banner1.png" alt=""/></a>
+                        </div>
+                        <div class="infocont">
+                            <a href="">
+                                <div class="subtitle">反动势力哦是考虑恢复</div>
+                                <div class="description">
+                                    <span class="descleft">去哪看</span>
+                                    <span class="descright">6020人浏览过</span>
+                                </div>
+                            </a>
+                        </div>
+
+                    </li>
+                    <li>
+
+                        <a class="close iconfont icon-wrong" href="javascript:;" title="并不感兴趣"></a>
+
+                        <div class="imgcont">
+                            <a href="">
+                                <div class="p"></div>
+                                <div class="tag">
+                                    <span><i class="iconfont icon-shopping"></i></span>
+                                    <span class="bt">游记</span>
+                                </div>
+                                <div class="imgmask"></div>
+                                <img src="img/banner1.png" alt=""/></a>
+                        </div>
+                        <div class="infocont">
+                            <a href="">
+                                <div class="subtitle">反动势力哦是考虑恢复</div>
+                                <div class="description">
+                                    <span class="descleft">去哪看</span>
+                                    <span class="descright">6020人浏览过</span>
+                                </div>
+                            </a>
+                        </div>
+
+                    </li>
+                    <li>
+
+                        <a class="close iconfont icon-wrong" href="javascript:;" title="并不感兴趣"></a>
+
+                        <div class="imgcont">
+                            <a href="">
+                                <div class="p"></div>
+                                <div class="tag">
+                                    <span><i class="iconfont icon-chengshi"></i></span>
+                                    <span class="bt">游记</span>
+                                </div>
+                                <div class="imgmask"></div>
+                                <img src="img/banner1.png" alt=""/></a>
+                        </div>
+                        <div class="infocont">
+                            <a href="">
+                                <div class="subtitle">反动势力哦是考虑恢复</div>
+                                <div class="description">
+                                    <span class="descleft">去哪看</span>
+                                    <span class="descright">6020人浏览过</span>
+                                </div>
+                            </a>
+                        </div>
+
+                    </li>
+                    <li>
+
+                        <a class="close iconfont icon-wrong" href="javascript:;" title="并不感兴趣"></a>
+
+                        <div class="imgcont">
+                            <a href="">
+                                <div class="p"></div>
+                                <div class="tag">
+                                    <span><i class="iconfont icon-youji"></i></span>
+                                    <span class="bt">游记</span>
+                                </div>
+                                <div class="imgmask"></div>
+                                <img src="img/banner1.png" alt=""/></a>
+                        </div>
+                        <div class="infocont">
+                            <a href="">
+                                <div class="subtitle">反动势力哦是考虑恢复</div>
+                                <div class="description">
+                                    <span class="descleft">去哪看</span>
+                                    <span class="descright">6020人浏览过</span>
+                                </div>
+                            </a>
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="section-green" class="section-green">
+        <div class="wrapper">
+            <h2 class="title"></h2>
+
+            <div class="listgreen">
+                <ul>
+                    <li class="countdown">
+                        <div class="member">
+                            <h3>十点开抢</h3>
+
+                            <div class="number">
+                                <div class="hour">
+                                    <div class="hour-num">
+                                        <span class="num-top">2</span>
+                                        <span class="num-bottom"><i>2</i></span>
+                                    </div>
+                                    <div class="hour-num right">
+                                        <span class="num-top">3</span>
+                                        <span class="num-bottom"><i>3</i></span>
+
+                                        <div class="colon">:</div>
+                                    </div>
+
+                                </div>
+                                <div class="minute">
+                                    <div class="hour-num">
+                                        <span class="num-top">5</span>
+                                        <span class="num-bottom"><i>5</i></span>
+                                    </div>
+                                    <div class="hour-num right">
+                                        <span class="num-top">7</span>
+                                        <span class="num-bottom"><i>7</i></span>
+
+                                        <div class="colon">:</div>
+                                    </div>
+                                </div>
+                                <div class="second">
+                                    <div class="hour-num">
+                                        <span class="num-top">0</span>
+                                        <span class="num-bottom"><i>0</i></span>
+                                    </div>
+                                    <div class="hour-num right">
+                                        <span class="num-top">1</span>
+                                        <span class="num-bottom"><i>1</i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buy">
+                            <a href="">
+                                <img src="img/img1.jpg">
+
+                                <div class="cont">
+                                    <p>【赠接送机】深圳直飞印度尼西亚美娜多自由行</p>
+                                </div>
+
+                            </a>
+
+                            <div class="price">
+                                <span class="price-num"><em>2999</em>元起</span>
+                                <span class="panic">马上开抢</span>
+                            </div>
+                        </div>
+                        <div class="buy-text">
+                            <span><a href="">明日15点开抢： 上海往返日本松山4-5天含税机票</a></span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="discount">
+                                <img src="img/img1.jpg" alt=""/>
+
+                                <div class="inner">
+                                    <div class="caption">【赠免税店优惠券】泰国普吉岛素可水疗中心</div>
+                                    <div class="st"><span class="time">2015/04 - 2016/04</span>
+                                        <span class="tag">机票</span></div>
+                                    <div class="price"><span><em>469</em>元起</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="discount">
+                                <img src="img/img1.jpg" alt=""/>
+
+                                <div class="inner">
+                                    <div class="caption">【赠免税店优惠券】泰国普吉岛素可水疗中心</div>
+                                    <div class="st"><span class="time">2015/04 - 2016/04</span>
+                                        <span class="tag">城市玩</span></div>
+                                    <div class="price"><span><em>469</em>元起</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="discount">
+                                <img src="img/img1.jpg" alt=""/>
+
+                                <div class="inner">
+                                    <div class="caption">【赠免税店优惠券】泰国普吉岛素可水疗中心</div>
+                                    <div class="st"><span class="time">2015/04 - 2016/04</span>
+                                        <span class="tag">机票</span></div>
+                                    <div class="price"><span><em>469</em>元起</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="discount">
+                                <img src="img/img1.jpg" alt=""/>
+
+                                <div class="inner">
+                                    <div class="caption">【赠免税店优惠券】泰国普吉岛素可水疗中心</div>
+                                    <div class="st"><span class="time">2015/04 - 2016/04</span>
+                                        <span class="tag">机票</span></div>
+                                    <div class="price"><span><em>469</em>元起</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <div class="slider-control">
+                        <a class="current" data-bn-ipg="index-world-page" href="javascript:;"></a>
+                        <a data-bn-ipg="index-world-page" href="javascript:;"></a>
+                        <a data-bn-ipg="index-world-page" href="javascript:;"></a>
+                        <a data-bn-ipg="index-world-page" href="javascript:;"></a>
+                        <a data-bn-ipg="index-world-page" href="javascript:;"></a>
+                    </div>
+                </ul>
+                <div class="more">
+                    <a href="#" target="_blank">查看更多折扣</a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div id="section-hot" class="section-hot">
+        <div class="wrapper">
+            <h2 class="title">热门游记与话题</h2>
+
+            <div class="hot-content">
+                <ul>
+                    <li>
+                        <div class="picbox">
+                            <div class="photo">
+                                <a href="#"><img src="img/pic1.jpg" alt=""/></a>
+
+                                <div class="replies">55</div>
+                            </div>
+                            <div class="picdes">
+                                <div class="circular">
+                                    <span class="avatar"><a href=""><img src="img/200.jpg" alt=""/></a></span>
+                                    <span class="txt"><a href="">穷游小秘书</a>
+                                    <span class="auth_avatar"><i class="icon qyer" title="穷游网论坛社区管理员"></i></span>
+                                    </span>
+                                </div>
+                                <a href="">
+                                    <div class="caption">今日话题｜你觉得旅行是检验情侣的最好标准吗？</div>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="picbox">
+                            <div class="photo">
+                                <a href="#"><img src="img/pic1.jpg" alt=""/></a>
+
+                                <div class="replies">55</div>
+                            </div>
+                            <div class="picdes">
+                                <div class="circular">
+                                    <span class="avatar"><a href=""><img src="img/200_1.jpg" alt=""/></a></span>
+                                    <span class="txt"><a href="">穷游小秘书</a>
+                                    <span class="auth_avatar"><i class="icon member" title="穷游网论坛社区管理员"></i></span>
+                                    </span>
+                                </div>
+                                <a href="">
+                                    <div class="caption">今日话题｜你觉得旅行是检验情侣的最好标准吗？</div>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="picbox">
+                            <div class="photo">
+                                <a href="#"><img src="img/pic1.jpg" alt=""/></a>
+
+                                <div class="replies">55</div>
+                            </div>
+                            <div class="picdes">
+                                <div class="circular">
+                                    <span class="avatar"><a href=""><img src="img/200.jpg" alt=""/></a></span>
+                                    <span class="txt"><a href="">穷游小秘书</a>
+                                    <span class="auth_avatar"><i class="icon qyer" title="穷游网论坛社区管理员"></i></span>
+                                    </span>
+                                </div>
+                                <a href="">
+                                    <div class="caption">今日话题｜你觉得旅行是检验情侣的最好标准吗？</div>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="picbox">
+                            <div class="photo">
+                                <a href="#"><img src="img/pic1.jpg" alt=""/></a>
+
+                                <div class="replies">55</div>
+                            </div>
+                            <div class="picdes">
+                                <div class="circular">
+                                    <span class="avatar"><a href=""><img src="img/200.jpg" alt=""/></a></span>
+                                    <span class="txt"><a href="">穷游小秘书</a>
+                                    <span class="auth_avatar"><i class="icon qyer" title="穷游网论坛社区管理员"></i></span>
+                                    </span>
+                                </div>
+                                <a href="">
+                                    <div class="caption">今日话题｜你觉得旅行是检验情侣的最好标准吗？</div>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="picbox">
+                            <div class="photo">
+                                <a href="#"><img src="img/pic1.jpg" alt=""/></a>
+
+                                <div class="replies">55</div>
+                            </div>
+                            <div class="picdes">
+                                <div class="circular">
+                                    <span class="avatar"><a href=""><img src="img/200.jpg" alt=""/></a></span>
+                                    <span class="txt"><a href="">穷游小秘书</a>
+                                    <span class="auth_avatar"><i class="icon qyer" title="穷游网论坛社区管理员"></i></span>
+                                    </span>
+                                </div>
+                                <a href="">
+                                    <div class="caption">今日话题｜你觉得旅行是检验情侣的最好标准吗？</div>
+                                </a>
+                            </div>
+                            <em class="hot tip">热议</em>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="picbox">
+                            <div class="photo">
+                                <a href="#"><img src="img/pic1.jpg" alt=""/></a>
+
+                                <div class="replies">55</div>
+                            </div>
+                            <div class="picdes">
+                                <div class="circular">
+                                    <span class="avatar"><a href=""><img src="img/200.jpg" alt=""/></a></span>
+                                    <span class="txt"><a href="">穷游小秘书</a>
+                                    <span class="auth_avatar"><i class="icon qyer" title="穷游网论坛社区管理员"></i></span>
+                                    </span>
+                                </div>
+                                <a href="">
+                                    <div class="caption">今日话题｜你觉得旅行是检验情侣的最好标准吗？</div>
+                                </a>
+                            </div>
+                            <em class="tip">精华</em>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="picbox">
+                            <div class="photo">
+                                <a href="#"><img src="img/pic1.jpg" alt=""/></a>
+
+                                <div class="replies">55</div>
+                            </div>
+                            <div class="picdes">
+                                <div class="circular">
+                                    <span class="avatar"><a href=""><img src="img/200.jpg" alt=""/></a></span>
+                                    <span class="txt"><a href="">穷游小秘书</a>
+                                    <span class="auth_avatar"><i class="icon qyer" title="穷游网论坛社区管理员"></i></span>
+                                    </span>
+                                </div>
+                                <a href="">
+                                    <div class="caption">今日话题｜你觉得旅行是检验情侣的最好标准吗？</div>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="picbox">
+                            <div class="photo">
+                                <a href="#"><img src="img/pic1.jpg" alt=""/></a>
+
+                                <div class="replies">55</div>
+                            </div>
+                            <div class="picdes">
+                                <div class="circular">
+                                    <span class="avatar"><a href=""><img src="img/200.jpg" alt=""/></a></span>
+                                    <span class="txt"><a href="">穷游小秘书</a>
+                                    <span class="auth_avatar"><i class="icon qyer" title="穷游网论坛社区管理员"></i></span>
+                                    </span>
+                                </div>
+                                <a href="">
+                                    <div class="caption">今日话题｜你觉得旅行是检验情侣的最好标准吗？</div>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <div class="slider-control-green">
+                        <a class="current" href="javascript:;"></a>
+                        <a href="javascript:;"></a>
+                        <a href="javascript:;"></a>
+                        <a href="javascript:;"></a>
+                        <a href="javascript:;"></a>
+                    </div>
+                </ul>
+
+                <div class="more-green">
+                    <a href="#" target="_blank">查看更多游记</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="section find" class="section find">
+        <div id="wrapper find" class="wrapper">
+
+            <div class="findleft">
+                <h3 class="title">发现穷游er<a class="change1" href=""><i class="iconfont icon-shuaxin"></i>&nbsp换一换</a>
+                </h3>
+
+                <div class="cardcont">
+                    <ul>
+                        <li>
+                            <div class="item">
+                                <div class="item-avatar">
+                                    <a href=""><img src="img/120.jpg" alt=""/></a>
+                                    <span class="auth_avatar"><i class="icon member" title="dsadasd"></i></span>
+                                </div>
+                                <div class="item-inner">
+                                    <a href="" class="ui_attent_btn follow">关注</a>
+
+                                    <p class="name"><a href="">zhaoyibo</a></p>
+
+                                    <p class="fans">455粉丝</p>
+
+                                    <p class="auth">抛开了拉了拉</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="item">
+                                <div class="item-avatar">
+                                    <a href=""><img src="img/120.jpg" alt=""/></a>
+                                    <span class="auth_avatar"><i class="icon member" title="dsadasd"></i></span>
+                                </div>
+                                <div class="item-inner">
+                                    <a href="" class="ui_attent_btn follow">关注</a>
+
+                                    <p class="name"><a href="">zhaoyibo</a></p>
+
+                                    <p class="fans">455粉丝</p>
+
+                                    <p class="auth">抛开了拉了拉</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="item">
+                                <div class="item-avatar">
+                                    <a href=""><img src="img/120.jpg" alt=""/></a>
+                                    <span class="auth_avatar"><i class="icon member" title="dsadasd"></i></span>
+                                </div>
+                                <div class="item-inner">
+                                    <a href="" class="ui_attent_btn follow">关注</a>
+
+                                    <p class="name"><a href="">zhaoyibo</a></p>
+
+                                    <p class="fans">455粉丝</p>
+
+                                    <p class="auth">抛开了拉了拉</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="item">
+                                <div class="item-avatar">
+                                    <a href=""><img src="img/120.jpg" alt=""/></a>
+                                    <span class="auth_avatar"><i class="icon member" title="dsadasd"></i></span>
+                                </div>
+                                <div class="item-inner">
+                                    <a href="" class="ui_attent_btn follow">关注</a>
+
+                                    <p class="name"><a href="">zhaoyibo</a></p>
+
+                                    <p class="fans">455粉丝</p>
+
+                                    <p class="auth">抛开了拉了拉</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="item">
+                                <div class="item-avatar">
+                                    <a href=""><img src="img/120.jpg" alt=""/></a>
+                                    <span class="auth_avatar"><i class="icon member" title="dsadasd"></i></span>
+                                </div>
+                                <div class="item-inner">
+                                    <a href="" class="ui_attent_btn follow">关注</a>
+
+                                    <p class="name"><a href="">zhaoyibo</a></p>
+
+                                    <p class="fans">455粉丝</p>
+
+                                    <p class="auth">抛开了拉了拉</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="item">
+                                <div class="item-avatar">
+                                    <a href=""><img src="img/120.jpg" alt=""/></a>
+                                    <span class="auth_avatar"><i class="icon member" title="dsadasd"></i></span>
+                                </div>
+                                <div class="item-inner">
+                                    <a href="" class="ui_attent_btn follow">关注</a>
+
+                                    <p class="name"><a href="">zhaoyibo</a></p>
+
+                                    <p class="fans">455粉丝</p>
+
+                                    <p class="auth">抛开了拉了拉</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="findright">
+                <h3 class="title">最新目的地点评
+                    <a class="link-comment" href="#" target="_blank">我要点评</a>
+                </h3>
+
+                <div class="carcontl">
+                    <ul>
+                        <li>
+                            <div class="item1">
+                                <div class="item-avatar1">
+                                    <a href=""><img src="img/120.jpg" alt=""/></a>
+                                </div>
+                                <div class="item-inner">
+                                    <div class="info">
+                                        <span class="user"><a href="">赵祎波</a></span>
+                                        <span>点评了</span>
+                                        <span class="poi">抛开了拉了拉</span>
+                                    </div>
+                                    <div class="star">
+                                        <i class="iconfont icon-start star"></i>
+                                        <i class="iconfont icon-start star"></i>
+                                        <i class="iconfont icon-start star"></i>
+                                        <i class="iconfont icon-start star"></i>
+                                        <i class="iconfont icon-start star"></i>
+                                    </div>
+                                    <div class="comment">
+                                        <p>NEW
+                                            BORN，简单的两个单词代表了科索沃人对生活的全部希望。不时有市民来到字母旁边玩耍，我们在这里时，还有一对年轻情侣过来问我们觉得他们的国家怎么样。是啊，这样新生的国家，该是很希望得到世界的肯定的吧。旁边就是一家名为“66号公路”的美式餐馆。</p>
+                                        <a class="link" href="#" target="_blank">全文</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="item1">
+                                <div class="item-avatar1">
+                                    <a href=""><img src="img/120.jpg" alt=""/></a>
+                                </div>
+                                <div class="item-inner">
+                                    <div class="info">
+                                        <span class="user"><a href="">赵祎波</a></span>
+                                        <span>点评了</span>
+                                        <span class="poi">抛开了拉了拉</span>
+                                    </div>
+                                    <div class="star">
+                                        <i class="iconfont icon-start star"></i>
+                                        <i class="iconfont icon-start star"></i>
+                                        <i class="iconfont icon-start star"></i>
+                                        <i class="iconfont icon-start star"></i>
+                                        <i class="iconfont icon-start star"></i>
+                                    </div>
+                                    <div class="comment">
+                                        <p>NEW
+                                            BORN，简单的两个单词代表了科索沃人对生活的全部希望。不时有市民来到字母旁边玩耍，我们在这里时，还有一对年轻情侣过来问我们觉得他们的国家怎么样。是啊，这样新生的国家，该是很希望得到世界的肯定的吧。旁边就是一家名为“66号公路”的美式餐馆。</p>
+                                        <a class="link" href="#" target="_blank">全文</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="section" style="height: 149px">
+        <div class="wrapper">
+            <div class="application">
+                <div class="apps">
+                    <h3 class="title">穷游APP</h3>
+                    <ul class="lists">
+                        <li>
+                            <a href="" style="height: 1000px"><img src="img/app_qyer.png" width="80" height="80"></a>
+                            <span>穷游</span>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank"><img src="img/app_plan.png" width="80" height="80"></a>
+                            <span>行程助手</span>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank"><img src="img/app_z.png" width="80" height="80"></a>
+                            <span>穷游最世界</span>
+                        </li>
+                        <li>
+                            <a><img src="img/app_guide.png" width="80" height="80"></a>
+                            <span>穷游锦囊</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="wechat">
+                    <h3 class="title">微信号</h3>
+                    <ul class="lists">
+                        <li>
+                            <img src="img/qrcode_qyer.png" width="80" height="80">
+                            <span>穷游网</span>
+                        </li>
+                        <li>
+                            <img src="img/qrcode_z.png" width="80" height="80">
+                            <span>穷游最世界</span>
+                        </li>
+                        <li>
+                            <img src="img/qrcode_guide.png" width="80" height="80">
+                            <span>穷游锦囊</span>
+                        </li>
+                        <li>
+                            <img src="img/qrcode_plan.png" width="80" height="80">
+                            <span>行程助手</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="footer-line"></div>
+    <div class="footer-wrap">
+        <div class="footer-inner">
+            <ul class="footer-about">
+                <li>
+                    <dl>
+                        <dt>关于我们</dt>
+                        <dd><a href="#" target="_blank">穷游简介</a></dd>
+                        <dd><a href="#" target="_blank">联系我们</a></dd>
+                        <dd><a href="#" target="_blank">合作伙伴</a></dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>加入穷游</dt>
+                        <dd><a href="#" target="_blank">招聘职位</a></dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>网站条款</dt>
+                        <dd><a href="#" target="_blank">会员条款</a></dd>
+                        <dd><a href="#" target="_blank">社区指南</a></dd>
+                        <dd><a href="#" target="_blank">版权声明</a></dd>
+                        <dd><a href="#" target="_blank">免责声明</a></dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>帮助中心</dt>
+                        <dd><a href="#" target="_blank">新手上路</a></dd>
+                        <dd><a href="#" target="_blank">使用帮助</a></dd>
+                        <dd><a href="#" target="_blank">网站地图</a></dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-wrap-black">
+        <div class="footer-inner2">
+            <div class="footer-copyright">
+                <a href="#"><img src="img/logo_gray_r.png" width="84" height="36" alt="穷游网"></a>
+
+                <p>2004-2016 © 穷游网® qyer.com All rights reserved. Version v5.57&nbsp;&nbsp;
+                    <a href="#" target="_blank">京ICP备12003524号</a>
+                    &nbsp;&nbsp;京公网安备11010102001935&nbsp;&nbsp;京ICP证140673号</p>
+
+                <p>
+                    <a href="#">穷游网</a>为<a href="#">旅行</a>者提供原创实用的<a href="#">出境游</a>
+                    <a href="#">旅行指南</a>和<a href="#">旅游攻略</a>、<a href="#">旅行社区</a>和
+                    <a href="#">问答</a>交流平台，并提供<a href="#">签证</a>、<a href="#">保险</a>、<a href="#">机票</a>、<a href="#">酒店预订</a>、<a href="#">租车</a>等服务。
+                </p>
+            </div>
+            <div class="links">
+                <span>友情链接</span>
+                <p>
+                    <a href="#" target="_blank">在线教育</a>
+                    | <a href="#" target="_blank">自驾租车</a>
+                    | <a href="#" target="_blank">金运之旅</a>
+                    | <a href="#" target="_blank">豌豆荚安卓市场</a>
+                    | <a href="" target="_blank">凤凰网旅游</a>
+                    | <a href="" target="_blank">凯撒旅游</a>
+                    | <a href="" target="_blank">神州租车</a>
+                    | <a href="" target="_blank">国际租车</a>
+                    | <a href="" target="_blank">携程攻略社区</a>
+                    | <a href="" target="_blank">蜂鸟网</a>
+                    | <a href="" target="_blank">大鱼自助游</a>
+                    | <a href="" target="_blank">天巡国际机票</a>
+                    | <a href="" target="_blank">游谱旅行网 </a>
+                    | <a href="" target="_blank">中国签证资讯网</a>
+                    | <a href="" target="_blank">梦之旅</a>
+                    | <a href="" target="_blank">九游网</a>
+                    | <a href="" target="_blank">北京国旅官网</a>
+                    | <a href="" target="_blank">北京国旅官网</a>
+                    | <a href="" target="_blank">北京国旅官网</a>
+                    | <a href="" target="_blank">北京国旅官网</a>
+                    | <a href="" target="_blank">北京国旅官网</a>
+                    | <a href="" target="_blank">北京国旅官网</a>
+                    | <a href="" target="_blank">北京国旅官网</a>
+                    | <a href="" target="_blank">北京国旅官网</a>
+                    | <a href="" target="_blank">北京国旅官网</a>
+                    | <a href="" target="_blank">北京国旅官网</a>
+                    | <a href="" target="_blank">北京国旅官网</a>
+                    | <a href="" target="_blank">北京国旅官网</a>
+                    | <a href="" target="_blank">北京国旅官网</a>
+                    | <a href="" target="_blank">北京国旅官网</a>
+                    | <a href="" target="_blank">北京国旅官网</a>
+                    | <a href="" target="_blank">北京国旅官网</a>
+                    | <a href="" target="_blank">北京国旅官网</a>
+                    | <a href="" target="_blank">北京国旅官网</a>
+                    | <a href="" target="_blank">北京国旅官网</a>
+                    | <a href="" target="_blank">北京国旅官网</a>
+                    | <a href="" target="_blank">北京国旅官网</a>
+                </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script charset="utf-8" type="text/javascript" src="js/utils.js"></script>
+<script charset="utf-8" type="text/javascript" src="js/tween.js"></script>
+<script charset="utf-8" type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript">
+</script>
